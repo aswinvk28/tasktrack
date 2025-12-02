@@ -15,6 +15,7 @@ import {
 } from "@/components/ui/card";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Button } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button";
 import { TaskDialog } from "@/components/task-dialog";
 import { deleteTask, toggleTaskCompletion } from "@/app/actions";
 import { useToast } from "@/hooks/use-toast";
